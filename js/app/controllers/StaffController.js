@@ -1,6 +1,7 @@
-function StaffController($scope) {
-    $scope.name = 'Steve Jobs';
-    $scope.email = 'steve@apple.com';
+function StaffController() {
+		var vm = this;
+    vm.name = 'Steve Jobs';
+    vm.email = 'steve@apple.com';
 }
 
 angular

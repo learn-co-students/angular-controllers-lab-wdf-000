@@ -1,6 +1,7 @@
-function ContactController($scope) {
-    $scope.name = 'Bill Gates';
-    $scope.email = 'william@microsoft.com'
+function ContactController() {
+		var vm = this;
+    vm.name = 'Bill Gates';
+    vm.email = 'william@microsoft.com'
 }
 
 angular
